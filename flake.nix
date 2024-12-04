@@ -6,8 +6,8 @@
   outputs = { self, nixpkgs, ... }:
   {
     templates = {
-      devenv = {
-        path = ./templates/nix-devenv;
+      devenv-uv = {
+        path = ./templates/devenv-uv;
         description = "devenv template with uv";
       };
     };
